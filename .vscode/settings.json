@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "*.c": "c",
+        "*.csv": "csv",
+        "new": "cpp",
+        "vector": "cpp",
+        "memory": "cpp",
+        "optional": "cpp",
+        "string_view": "cpp",
+        "functional": "cpp",
+        "random": "cpp",
+        "format": "cpp",
+        "system_error": "cpp",
+        "text_encoding": "cpp",
+        "variant": "cpp",
+        "stdexcept": "cpp"
+    }
+}

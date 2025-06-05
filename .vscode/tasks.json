@@ -1,0 +1,33 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "Build tinyProject.exe",
+            "command": "C:\\msys64\\ucrt64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "-Iinclude",
+                "-Iinclude/eigen-3.4.0",
+                "tinyProject.cpp",
+                "src/Vector.cpp",
+                "src/Matrix.cpp",
+                "src/LinearSystem.cpp",
+                "-o",
+                "${workspaceFolder}/bin/tinyProject.exe"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Build task for tinyProject with Eigen and custom headers."
+        }
+    ]
+}
