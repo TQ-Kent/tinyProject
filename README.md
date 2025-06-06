@@ -100,3 +100,4 @@ This uses launch.json and runs the tinyProject.exe directly from the bin/ folder
 |-------------------------|-----------|
 | Phan Nguyễn Thanh Quân  | 10423098  |
 | Nguyễn Trung Hiếu       | 10423040  |
+| Đặng Quốc An            | 10423001  |
